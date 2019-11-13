@@ -38,20 +38,20 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 
-holiday_supplies= {:winter => {
-      :christmas => ["Lights", "Wreath"],
-      :new_years => ["Party Hats"]
-    },
-    :summer => {
-      :fourth_of_july => ["Fireworks", "BBQ"]
-    },
-    :fall => {
-      :thanksgiving => ["Turkey"]
-    },
-    :spring => {
-      :memorial_day => ["BBQ"]
-    }
-  }
+# holiday_supplies= {:winter => {
+#       :christmas => ["Lights", "Wreath"],
+#       :new_years => ["Party Hats"]
+#     },
+#     :summer => {
+#       :fourth_of_july => ["Fireworks", "BBQ"]
+#     },
+#     :fall => {
+#       :thanksgiving => ["Turkey"]
+#     },
+#     :spring => {
+#       :memorial_day => ["BBQ"]
+#     }
+#   }
 
 def all_supplies_in_holidays(holiday_hash)
   # iterate through holiday_hash and print items such that your readout resembles:
@@ -65,11 +65,10 @@ def all_supplies_in_holidays(holiday_hash)
    puts "#{season.to_s.capitalize}:"
    holiday.each do |holi, supply|
    puts "#{holi.to_s.capitalize}: #{supply.join(", ")}"
- binding.pry
   end
  end
 end
-all_supplies_in_holidays(holiday_supplies)
+# all_supplies_in_holidays(holiday_supplies)
 
 
 def all_holidays_with_bbq(holiday_hash)

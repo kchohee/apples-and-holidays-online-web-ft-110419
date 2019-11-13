@@ -38,7 +38,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 
-# holiday_supplies= {:winter => {
+holiday_supplies= {:winter => {
 #       :christmas => ["Lights", "Wreath"],
 #       :new_years => ["Party Hats"]
 #     },
@@ -69,7 +69,7 @@ binding.pry
   end
  end
 end
-# all_supplies_in_holidays(holiday_supplies)
+all_supplies_in_holidays(holiday_supplies)
 
 
 def all_holidays_with_bbq(holiday_hash)

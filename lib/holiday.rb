@@ -83,6 +83,7 @@ holiday_hash.each do |season,holiday|
     end
   end
 end
+return holiday_arr
 # binding.pry
 end
 all_holidays_with_bbq(holiday_supplies)

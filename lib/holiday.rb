@@ -45,17 +45,10 @@ def all_supplies_in_holidays(holiday_hash)
   # Summer:
   #   Fourth Of July: Fireworks, BBQ
   # etc.
- puts <<HOLIDAY_HASH
-Winter:
-  Christmas: Lights, Wreath
-  New Years: Party Hats
-Summer:
-  Fourth Of July: Fireworks, BBQ
-Fall:
-  Thanksgiving: Turkey
-Spring:
-  Memorial Day: BBQ
-HOLIDAY_HASH
+ holiday_hash.each do | season, holiday, sup|
+   puts "#{season.to_s.capitalize}:"
+   puts "#{holidayto_s.split(" ")}: #{sup.to_s.split(" ")}"
+ end
 end
 
 def all_holidays_with_bbq(holiday_hash)

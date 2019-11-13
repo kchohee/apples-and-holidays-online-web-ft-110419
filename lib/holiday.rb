@@ -46,8 +46,8 @@ def all_supplies_in_holidays(holiday_hash)
   #   Fourth Of July: Fireworks, BBQ
   # etc.
  puts <<HOLIDAY_HASH
- Winter:
-   Christmas: Lights, Wreath
+Winter:
+  Christmas: Lights, Wreath
    New Years: Party Hats
  Summer:
    Fourth Of July: Fireworks, BBQ

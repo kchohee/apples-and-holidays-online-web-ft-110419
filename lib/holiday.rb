@@ -81,6 +81,7 @@ holiday_hash.each {|season,holiday|
     if sup.include?("BBQ")
        holiday_arr << holi
     end
+  end
 binding.pry
 end
 all_holidays_with_bbq(holiday_supplies)

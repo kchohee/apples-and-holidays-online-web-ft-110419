@@ -38,7 +38,7 @@ def all_winter_holiday_supplies(holiday_hash)
 end
 
 
-let(:holiday_supplies) {
+holiday_supplies= {
   {
     :winter => {
       :christmas => ["Lights", "Wreath"],
